@@ -61,7 +61,7 @@ img {
 
 button {
     background-color: #3882f6;
-    border-color: #3882f6;
+    border-color:white;
     margin: 10px;
     color: white;
     border-radius: 5px;
@@ -108,4 +108,40 @@ button {
     padding: 10px 80px;
     text-align: right;
     font-weight: 700;
+}
+
+
+.container4 {
+    display: flex;
+    justify-content: center;
+    padding: 80px 100px;
+}
+
+.box {
+    display: flex;
+    background-color: #3882f6;
+    padding: 20px;
+    align-items: center;
+    gap: 100px;
+    border-radius: 7.5px;
+
+}
+
+.title3 {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.text3 {
+    color: white;
+}
+
+footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 25px;
+    margin: -10px;
 }
